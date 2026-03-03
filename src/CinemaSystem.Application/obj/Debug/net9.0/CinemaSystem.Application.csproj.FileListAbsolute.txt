@@ -1,0 +1,15 @@
+C:\Users\ali asım dedeoğlu\OneDrive\Masaüstü\sinema_api\src\CinemaSystem.Application\obj\Debug\net9.0\CinemaSystem.Application.csproj.AssemblyReference.cache
+C:\Users\ali asım dedeoğlu\OneDrive\Masaüstü\sinema_api\src\CinemaSystem.Application\obj\Debug\net9.0\CinemaSystem.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ali asım dedeoğlu\OneDrive\Masaüstü\sinema_api\src\CinemaSystem.Application\obj\Debug\net9.0\CinemaSystem.Application.AssemblyInfoInputs.cache
+C:\Users\ali asım dedeoğlu\OneDrive\Masaüstü\sinema_api\src\CinemaSystem.Application\obj\Debug\net9.0\CinemaSystem.Application.AssemblyInfo.cs
+C:\Users\ali asım dedeoğlu\OneDrive\Masaüstü\sinema_api\src\CinemaSystem.Application\obj\Debug\net9.0\CinemaSystem.Application.csproj.CoreCompileInputs.cache
+C:\Users\ali asım dedeoğlu\OneDrive\Masaüstü\sinema_api\src\CinemaSystem.Application\bin\Debug\net9.0\CinemaSystem.Application.deps.json
+C:\Users\ali asım dedeoğlu\OneDrive\Masaüstü\sinema_api\src\CinemaSystem.Application\bin\Debug\net9.0\CinemaSystem.Application.dll
+C:\Users\ali asım dedeoğlu\OneDrive\Masaüstü\sinema_api\src\CinemaSystem.Application\bin\Debug\net9.0\CinemaSystem.Application.pdb
+C:\Users\ali asım dedeoğlu\OneDrive\Masaüstü\sinema_api\src\CinemaSystem.Application\bin\Debug\net9.0\CinemaSystem.Domain.dll
+C:\Users\ali asım dedeoğlu\OneDrive\Masaüstü\sinema_api\src\CinemaSystem.Application\bin\Debug\net9.0\CinemaSystem.Domain.pdb
+C:\Users\ali asım dedeoğlu\OneDrive\Masaüstü\sinema_api\src\CinemaSystem.Application\obj\Debug\net9.0\CinemaSy.08A11658.Up2Date
+C:\Users\ali asım dedeoğlu\OneDrive\Masaüstü\sinema_api\src\CinemaSystem.Application\obj\Debug\net9.0\CinemaSystem.Application.dll
+C:\Users\ali asım dedeoğlu\OneDrive\Masaüstü\sinema_api\src\CinemaSystem.Application\obj\Debug\net9.0\refint\CinemaSystem.Application.dll
+C:\Users\ali asım dedeoğlu\OneDrive\Masaüstü\sinema_api\src\CinemaSystem.Application\obj\Debug\net9.0\CinemaSystem.Application.pdb
+C:\Users\ali asım dedeoğlu\OneDrive\Masaüstü\sinema_api\src\CinemaSystem.Application\obj\Debug\net9.0\ref\CinemaSystem.Application.dll

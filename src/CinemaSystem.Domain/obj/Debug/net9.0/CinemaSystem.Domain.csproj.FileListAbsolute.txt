@@ -1,0 +1,12 @@
+C:\Users\ali asım dedeoğlu\OneDrive\Masaüstü\sinema_api\src\CinemaSystem.Domain\bin\Debug\net9.0\CinemaSystem.Domain.deps.json
+C:\Users\ali asım dedeoğlu\OneDrive\Masaüstü\sinema_api\src\CinemaSystem.Domain\bin\Debug\net9.0\CinemaSystem.Domain.dll
+C:\Users\ali asım dedeoğlu\OneDrive\Masaüstü\sinema_api\src\CinemaSystem.Domain\bin\Debug\net9.0\CinemaSystem.Domain.pdb
+C:\Users\ali asım dedeoğlu\OneDrive\Masaüstü\sinema_api\src\CinemaSystem.Domain\obj\Debug\net9.0\CinemaSystem.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ali asım dedeoğlu\OneDrive\Masaüstü\sinema_api\src\CinemaSystem.Domain\obj\Debug\net9.0\CinemaSystem.Domain.AssemblyInfoInputs.cache
+C:\Users\ali asım dedeoğlu\OneDrive\Masaüstü\sinema_api\src\CinemaSystem.Domain\obj\Debug\net9.0\CinemaSystem.Domain.AssemblyInfo.cs
+C:\Users\ali asım dedeoğlu\OneDrive\Masaüstü\sinema_api\src\CinemaSystem.Domain\obj\Debug\net9.0\CinemaSystem.Domain.csproj.CoreCompileInputs.cache
+C:\Users\ali asım dedeoğlu\OneDrive\Masaüstü\sinema_api\src\CinemaSystem.Domain\obj\Debug\net9.0\CinemaSystem.Domain.dll
+C:\Users\ali asım dedeoğlu\OneDrive\Masaüstü\sinema_api\src\CinemaSystem.Domain\obj\Debug\net9.0\refint\CinemaSystem.Domain.dll
+C:\Users\ali asım dedeoğlu\OneDrive\Masaüstü\sinema_api\src\CinemaSystem.Domain\obj\Debug\net9.0\CinemaSystem.Domain.pdb
+C:\Users\ali asım dedeoğlu\OneDrive\Masaüstü\sinema_api\src\CinemaSystem.Domain\obj\Debug\net9.0\ref\CinemaSystem.Domain.dll
+C:\Users\ali asım dedeoğlu\OneDrive\Masaüstü\sinema_api\src\CinemaSystem.Domain\obj\Debug\net9.0\CinemaSystem.Domain.csproj.AssemblyReference.cache

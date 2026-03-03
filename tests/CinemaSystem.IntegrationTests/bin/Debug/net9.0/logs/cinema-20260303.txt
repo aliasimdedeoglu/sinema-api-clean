@@ -1,0 +1,425 @@
+2026-03-03 02:15:45.736 +03:00 [FTL] Application terminated unexpectedly
+System.InvalidOperationException: Services for database providers 'Microsoft.EntityFrameworkCore.SqlServer', 'Microsoft.EntityFrameworkCore.InMemory' have been registered in the service provider. Only a single database provider can be registered in a service provider. If possible, ensure that Entity Framework is managing its service provider by removing the call to 'UseInternalServiceProvider'. Otherwise, consider conditionally registering the database provider, or maintaining one service provider per database provider.
+   at Microsoft.EntityFrameworkCore.Internal.DbContextServices.Initialize(IServiceProvider scopedProvider, DbContextOptions contextOptions, DbContext context)
+   at Microsoft.EntityFrameworkCore.DbContext.get_ContextServices()
+   at Microsoft.EntityFrameworkCore.DbContext.get_InternalServiceProvider()
+   at Microsoft.EntityFrameworkCore.DbContext.Microsoft.EntityFrameworkCore.Infrastructure.IInfrastructure<System.IServiceProvider>.get_Instance()
+   at Microsoft.EntityFrameworkCore.Infrastructure.DatabaseFacade.Microsoft.EntityFrameworkCore.Infrastructure.IInfrastructure<System.IServiceProvider>.get_Instance()
+   at Microsoft.EntityFrameworkCore.RelationalDatabaseFacadeExtensions.GetRelationalService[TService](IInfrastructure`1 databaseFacade)
+   at Microsoft.EntityFrameworkCore.RelationalDatabaseFacadeExtensions.Migrate(DatabaseFacade databaseFacade)
+   at Program.<Main>$(String[] args) in C:\Users\ali asım dedeoğlu\OneDrive\Masaüstü\sinema_api\src\CinemaSystem.WebAPI\Program.cs:line 67
+2026-03-03 02:15:53.738 +03:00 [FTL] Application terminated unexpectedly
+System.InvalidOperationException: Services for database providers 'Microsoft.EntityFrameworkCore.SqlServer', 'Microsoft.EntityFrameworkCore.InMemory' have been registered in the service provider. Only a single database provider can be registered in a service provider. If possible, ensure that Entity Framework is managing its service provider by removing the call to 'UseInternalServiceProvider'. Otherwise, consider conditionally registering the database provider, or maintaining one service provider per database provider.
+   at Microsoft.EntityFrameworkCore.Internal.DbContextServices.Initialize(IServiceProvider scopedProvider, DbContextOptions contextOptions, DbContext context)
+   at Microsoft.EntityFrameworkCore.DbContext.get_ContextServices()
+   at Microsoft.EntityFrameworkCore.DbContext.get_InternalServiceProvider()
+   at Microsoft.EntityFrameworkCore.DbContext.Microsoft.EntityFrameworkCore.Infrastructure.IInfrastructure<System.IServiceProvider>.get_Instance()
+   at Microsoft.EntityFrameworkCore.Infrastructure.DatabaseFacade.Microsoft.EntityFrameworkCore.Infrastructure.IInfrastructure<System.IServiceProvider>.get_Instance()
+   at Microsoft.EntityFrameworkCore.RelationalDatabaseFacadeExtensions.GetRelationalService[TService](IInfrastructure`1 databaseFacade)
+   at Microsoft.EntityFrameworkCore.RelationalDatabaseFacadeExtensions.Migrate(DatabaseFacade databaseFacade)
+   at Program.<Main>$(String[] args) in C:\Users\ali asım dedeoğlu\OneDrive\Masaüstü\sinema_api\src\CinemaSystem.WebAPI\Program.cs:line 67
+2026-03-03 02:16:29.202 +03:00 [FTL] Application terminated unexpectedly
+System.InvalidOperationException: Services for database providers 'Microsoft.EntityFrameworkCore.SqlServer', 'Microsoft.EntityFrameworkCore.InMemory' have been registered in the service provider. Only a single database provider can be registered in a service provider. If possible, ensure that Entity Framework is managing its service provider by removing the call to 'UseInternalServiceProvider'. Otherwise, consider conditionally registering the database provider, or maintaining one service provider per database provider.
+   at Microsoft.EntityFrameworkCore.Internal.DbContextServices.Initialize(IServiceProvider scopedProvider, DbContextOptions contextOptions, DbContext context)
+   at Microsoft.EntityFrameworkCore.DbContext.get_ContextServices()
+   at Microsoft.EntityFrameworkCore.DbContext.get_InternalServiceProvider()
+   at Microsoft.EntityFrameworkCore.DbContext.Microsoft.EntityFrameworkCore.Infrastructure.IInfrastructure<System.IServiceProvider>.get_Instance()
+   at Microsoft.EntityFrameworkCore.Infrastructure.Internal.InfrastructureExtensions.GetService(IInfrastructure`1 accessor, Type serviceType)
+   at Microsoft.EntityFrameworkCore.Infrastructure.Internal.InfrastructureExtensions.GetService[TService](IInfrastructure`1 accessor)
+   at Microsoft.EntityFrameworkCore.Infrastructure.AccessorExtensions.GetService[TService](IInfrastructure`1 accessor)
+   at Microsoft.EntityFrameworkCore.Infrastructure.DatabaseFacade.get_Dependencies()
+   at Microsoft.EntityFrameworkCore.Infrastructure.DatabaseFacade.EnsureCreated()
+   at CinemaSystem.IntegrationTests.TestWebApplicationFactory.<ConfigureWebHost>b__1_0(IServiceCollection services) in C:\Users\ali asım dedeoğlu\OneDrive\Masaüstü\sinema_api\tests\CinemaSystem.IntegrationTests\TestWebApplicationFactory.cs:line 44
+   at Microsoft.Extensions.Hosting.HostApplicationBuilder.HostBuilderAdapter.ApplyChanges()
+   at Microsoft.Extensions.Hosting.HostApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Builder.WebApplicationBuilder.Build()
+   at Program.<Main>$(String[] args) in C:\Users\ali asım dedeoğlu\OneDrive\Masaüstü\sinema_api\src\CinemaSystem.WebAPI\Program.cs:line 61
+2026-03-03 02:17:13.615 +03:00 [FTL] Application terminated unexpectedly
+System.InvalidOperationException: Services for database providers 'Microsoft.EntityFrameworkCore.SqlServer', 'Microsoft.EntityFrameworkCore.InMemory' have been registered in the service provider. Only a single database provider can be registered in a service provider. If possible, ensure that Entity Framework is managing its service provider by removing the call to 'UseInternalServiceProvider'. Otherwise, consider conditionally registering the database provider, or maintaining one service provider per database provider.
+   at Microsoft.EntityFrameworkCore.Internal.DbContextServices.Initialize(IServiceProvider scopedProvider, DbContextOptions contextOptions, DbContext context)
+   at Microsoft.EntityFrameworkCore.DbContext.get_ContextServices()
+   at Microsoft.EntityFrameworkCore.DbContext.get_InternalServiceProvider()
+   at Microsoft.EntityFrameworkCore.DbContext.Microsoft.EntityFrameworkCore.Infrastructure.IInfrastructure<System.IServiceProvider>.get_Instance()
+   at Microsoft.EntityFrameworkCore.Infrastructure.Internal.InfrastructureExtensions.GetService(IInfrastructure`1 accessor, Type serviceType)
+   at Microsoft.EntityFrameworkCore.Infrastructure.Internal.InfrastructureExtensions.GetService[TService](IInfrastructure`1 accessor)
+   at Microsoft.EntityFrameworkCore.Infrastructure.AccessorExtensions.GetService[TService](IInfrastructure`1 accessor)
+   at Microsoft.EntityFrameworkCore.RelationalDatabaseFacadeExtensions.IsRelational(DatabaseFacade databaseFacade)
+   at Program.<Main>$(String[] args) in C:\Users\ali asım dedeoğlu\OneDrive\Masaüstü\sinema_api\src\CinemaSystem.WebAPI\Program.cs:line 67
+2026-03-03 02:17:46.281 +03:00 [INF] Handling CreateMovieCommand
+2026-03-03 02:17:46.384 +03:00 [WRN] Request CreateMovieCommand failed after 104ms
+System.InvalidOperationException: Services for database providers 'Microsoft.EntityFrameworkCore.SqlServer', 'Microsoft.EntityFrameworkCore.InMemory' have been registered in the service provider. Only a single database provider can be registered in a service provider. If possible, ensure that Entity Framework is managing its service provider by removing the call to 'UseInternalServiceProvider'. Otherwise, consider conditionally registering the database provider, or maintaining one service provider per database provider.
+   at Microsoft.EntityFrameworkCore.Internal.DbContextServices.Initialize(IServiceProvider scopedProvider, DbContextOptions contextOptions, DbContext context)
+   at Microsoft.EntityFrameworkCore.DbContext.get_ContextServices()
+   at Microsoft.EntityFrameworkCore.DbContext.get_InternalServiceProvider()
+   at Microsoft.EntityFrameworkCore.DbContext.get_DbContextDependencies()
+   at Microsoft.EntityFrameworkCore.DbContext.Set[TEntity]()
+   at CinemaSystem.Infrastructure.Persistence.CinemaDbContext.get_Movies() in C:\Users\ali asım dedeoğlu\OneDrive\Masaüstü\sinema_api\src\CinemaSystem.Infrastructure\Persistence\CinemaDbContext.cs:line 30
+   at CinemaSystem.Infrastructure.Repositories.MovieRepository.AddAsync(Movie movie, CancellationToken ct) in C:\Users\ali asım dedeoğlu\OneDrive\Masaüstü\sinema_api\src\CinemaSystem.Infrastructure\Repositories\Repositories.cs:line 25
+   at CinemaSystem.Application.Features.Movies.Commands.CreateMovieCommandHandler.Handle(CreateMovieCommand request, CancellationToken cancellationToken) in C:\Users\ali asım dedeoğlu\OneDrive\Masaüstü\sinema_api\src\CinemaSystem.Application\Features\Movies\Commands\CreateMovieCommand.cs:line 45
+   at CinemaSystem.Application.Common.Behaviors.ValidationBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken) in C:\Users\ali asım dedeoğlu\OneDrive\Masaüstü\sinema_api\src\CinemaSystem.Application\Common\Behaviors\ValidationBehavior.cs:line 42
+   at CinemaSystem.Application.Common.Behaviors.LoggingBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken) in C:\Users\ali asım dedeoğlu\OneDrive\Masaüstü\sinema_api\src\CinemaSystem.Application\Common\Behaviors\LoggingBehavior.cs:line 28
+2026-03-03 02:17:46.411 +03:00 [INF] Handling CreateMovieCommand
+2026-03-03 02:17:46.413 +03:00 [WRN] Request CreateMovieCommand failed after 2ms
+System.InvalidOperationException: Services for database providers 'Microsoft.EntityFrameworkCore.SqlServer', 'Microsoft.EntityFrameworkCore.InMemory' have been registered in the service provider. Only a single database provider can be registered in a service provider. If possible, ensure that Entity Framework is managing its service provider by removing the call to 'UseInternalServiceProvider'. Otherwise, consider conditionally registering the database provider, or maintaining one service provider per database provider.
+   at Microsoft.EntityFrameworkCore.Internal.DbContextServices.Initialize(IServiceProvider scopedProvider, DbContextOptions contextOptions, DbContext context)
+   at Microsoft.EntityFrameworkCore.DbContext.get_ContextServices()
+   at Microsoft.EntityFrameworkCore.DbContext.get_InternalServiceProvider()
+   at Microsoft.EntityFrameworkCore.DbContext.get_DbContextDependencies()
+   at Microsoft.EntityFrameworkCore.DbContext.Set[TEntity]()
+   at CinemaSystem.Infrastructure.Persistence.CinemaDbContext.get_Movies() in C:\Users\ali asım dedeoğlu\OneDrive\Masaüstü\sinema_api\src\CinemaSystem.Infrastructure\Persistence\CinemaDbContext.cs:line 30
+   at CinemaSystem.Infrastructure.Repositories.MovieRepository.AddAsync(Movie movie, CancellationToken ct) in C:\Users\ali asım dedeoğlu\OneDrive\Masaüstü\sinema_api\src\CinemaSystem.Infrastructure\Repositories\Repositories.cs:line 25
+   at CinemaSystem.Application.Features.Movies.Commands.CreateMovieCommandHandler.Handle(CreateMovieCommand request, CancellationToken cancellationToken) in C:\Users\ali asım dedeoğlu\OneDrive\Masaüstü\sinema_api\src\CinemaSystem.Application\Features\Movies\Commands\CreateMovieCommand.cs:line 45
+   at CinemaSystem.Application.Common.Behaviors.ValidationBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken) in C:\Users\ali asım dedeoğlu\OneDrive\Masaüstü\sinema_api\src\CinemaSystem.Application\Common\Behaviors\ValidationBehavior.cs:line 42
+   at CinemaSystem.Application.Common.Behaviors.LoggingBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken) in C:\Users\ali asım dedeoğlu\OneDrive\Masaüstü\sinema_api\src\CinemaSystem.Application\Common\Behaviors\LoggingBehavior.cs:line 28
+2026-03-03 02:17:57.691 +03:00 [INF] Handling CreateMovieCommand
+2026-03-03 02:17:57.798 +03:00 [WRN] Request CreateMovieCommand failed after 109ms
+System.InvalidOperationException: Services for database providers 'Microsoft.EntityFrameworkCore.SqlServer', 'Microsoft.EntityFrameworkCore.InMemory' have been registered in the service provider. Only a single database provider can be registered in a service provider. If possible, ensure that Entity Framework is managing its service provider by removing the call to 'UseInternalServiceProvider'. Otherwise, consider conditionally registering the database provider, or maintaining one service provider per database provider.
+   at Microsoft.EntityFrameworkCore.Internal.DbContextServices.Initialize(IServiceProvider scopedProvider, DbContextOptions contextOptions, DbContext context)
+   at Microsoft.EntityFrameworkCore.DbContext.get_ContextServices()
+   at Microsoft.EntityFrameworkCore.DbContext.get_InternalServiceProvider()
+   at Microsoft.EntityFrameworkCore.DbContext.get_DbContextDependencies()
+   at Microsoft.EntityFrameworkCore.DbContext.Set[TEntity]()
+   at CinemaSystem.Infrastructure.Persistence.CinemaDbContext.get_Movies() in C:\Users\ali asım dedeoğlu\OneDrive\Masaüstü\sinema_api\src\CinemaSystem.Infrastructure\Persistence\CinemaDbContext.cs:line 30
+   at CinemaSystem.Infrastructure.Repositories.MovieRepository.AddAsync(Movie movie, CancellationToken ct) in C:\Users\ali asım dedeoğlu\OneDrive\Masaüstü\sinema_api\src\CinemaSystem.Infrastructure\Repositories\Repositories.cs:line 25
+   at CinemaSystem.Application.Features.Movies.Commands.CreateMovieCommandHandler.Handle(CreateMovieCommand request, CancellationToken cancellationToken) in C:\Users\ali asım dedeoğlu\OneDrive\Masaüstü\sinema_api\src\CinemaSystem.Application\Features\Movies\Commands\CreateMovieCommand.cs:line 45
+   at CinemaSystem.Application.Common.Behaviors.ValidationBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken) in C:\Users\ali asım dedeoğlu\OneDrive\Masaüstü\sinema_api\src\CinemaSystem.Application\Common\Behaviors\ValidationBehavior.cs:line 42
+   at CinemaSystem.Application.Common.Behaviors.LoggingBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken) in C:\Users\ali asım dedeoğlu\OneDrive\Masaüstü\sinema_api\src\CinemaSystem.Application\Common\Behaviors\LoggingBehavior.cs:line 28
+2026-03-03 02:17:57.812 +03:00 [INF] Handling CreateMovieCommand
+2026-03-03 02:17:57.814 +03:00 [WRN] Request CreateMovieCommand failed after 2ms
+System.InvalidOperationException: Services for database providers 'Microsoft.EntityFrameworkCore.SqlServer', 'Microsoft.EntityFrameworkCore.InMemory' have been registered in the service provider. Only a single database provider can be registered in a service provider. If possible, ensure that Entity Framework is managing its service provider by removing the call to 'UseInternalServiceProvider'. Otherwise, consider conditionally registering the database provider, or maintaining one service provider per database provider.
+   at Microsoft.EntityFrameworkCore.Internal.DbContextServices.Initialize(IServiceProvider scopedProvider, DbContextOptions contextOptions, DbContext context)
+   at Microsoft.EntityFrameworkCore.DbContext.get_ContextServices()
+   at Microsoft.EntityFrameworkCore.DbContext.get_InternalServiceProvider()
+   at Microsoft.EntityFrameworkCore.DbContext.get_DbContextDependencies()
+   at Microsoft.EntityFrameworkCore.DbContext.Set[TEntity]()
+   at CinemaSystem.Infrastructure.Persistence.CinemaDbContext.get_Movies() in C:\Users\ali asım dedeoğlu\OneDrive\Masaüstü\sinema_api\src\CinemaSystem.Infrastructure\Persistence\CinemaDbContext.cs:line 30
+   at CinemaSystem.Infrastructure.Repositories.MovieRepository.AddAsync(Movie movie, CancellationToken ct) in C:\Users\ali asım dedeoğlu\OneDrive\Masaüstü\sinema_api\src\CinemaSystem.Infrastructure\Repositories\Repositories.cs:line 25
+   at CinemaSystem.Application.Features.Movies.Commands.CreateMovieCommandHandler.Handle(CreateMovieCommand request, CancellationToken cancellationToken) in C:\Users\ali asım dedeoğlu\OneDrive\Masaüstü\sinema_api\src\CinemaSystem.Application\Features\Movies\Commands\CreateMovieCommand.cs:line 45
+   at CinemaSystem.Application.Common.Behaviors.ValidationBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken) in C:\Users\ali asım dedeoğlu\OneDrive\Masaüstü\sinema_api\src\CinemaSystem.Application\Common\Behaviors\ValidationBehavior.cs:line 42
+   at CinemaSystem.Application.Common.Behaviors.LoggingBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken) in C:\Users\ali asım dedeoğlu\OneDrive\Masaüstü\sinema_api\src\CinemaSystem.Application\Common\Behaviors\LoggingBehavior.cs:line 28
+2026-03-03 02:18:32.832 +03:00 [INF] Handling CreateMovieCommand
+2026-03-03 02:18:32.956 +03:00 [WRN] Request CreateMovieCommand failed after 127ms
+System.InvalidOperationException: Services for database providers 'Microsoft.EntityFrameworkCore.SqlServer', 'Microsoft.EntityFrameworkCore.InMemory' have been registered in the service provider. Only a single database provider can be registered in a service provider. If possible, ensure that Entity Framework is managing its service provider by removing the call to 'UseInternalServiceProvider'. Otherwise, consider conditionally registering the database provider, or maintaining one service provider per database provider.
+   at Microsoft.EntityFrameworkCore.Internal.DbContextServices.Initialize(IServiceProvider scopedProvider, DbContextOptions contextOptions, DbContext context)
+   at Microsoft.EntityFrameworkCore.DbContext.get_ContextServices()
+   at Microsoft.EntityFrameworkCore.DbContext.get_InternalServiceProvider()
+   at Microsoft.EntityFrameworkCore.DbContext.get_DbContextDependencies()
+   at Microsoft.EntityFrameworkCore.DbContext.Set[TEntity]()
+   at CinemaSystem.Infrastructure.Persistence.CinemaDbContext.get_Movies() in C:\Users\ali asım dedeoğlu\OneDrive\Masaüstü\sinema_api\src\CinemaSystem.Infrastructure\Persistence\CinemaDbContext.cs:line 30
+   at CinemaSystem.Infrastructure.Repositories.MovieRepository.AddAsync(Movie movie, CancellationToken ct) in C:\Users\ali asım dedeoğlu\OneDrive\Masaüstü\sinema_api\src\CinemaSystem.Infrastructure\Repositories\Repositories.cs:line 25
+   at CinemaSystem.Application.Features.Movies.Commands.CreateMovieCommandHandler.Handle(CreateMovieCommand request, CancellationToken cancellationToken) in C:\Users\ali asım dedeoğlu\OneDrive\Masaüstü\sinema_api\src\CinemaSystem.Application\Features\Movies\Commands\CreateMovieCommand.cs:line 45
+   at CinemaSystem.Application.Common.Behaviors.ValidationBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken) in C:\Users\ali asım dedeoğlu\OneDrive\Masaüstü\sinema_api\src\CinemaSystem.Application\Common\Behaviors\ValidationBehavior.cs:line 42
+   at CinemaSystem.Application.Common.Behaviors.LoggingBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken) in C:\Users\ali asım dedeoğlu\OneDrive\Masaüstü\sinema_api\src\CinemaSystem.Application\Common\Behaviors\LoggingBehavior.cs:line 28
+2026-03-03 02:18:32.972 +03:00 [INF] Handling CreateMovieCommand
+2026-03-03 02:18:32.975 +03:00 [WRN] Request CreateMovieCommand failed after 2ms
+System.InvalidOperationException: Services for database providers 'Microsoft.EntityFrameworkCore.SqlServer', 'Microsoft.EntityFrameworkCore.InMemory' have been registered in the service provider. Only a single database provider can be registered in a service provider. If possible, ensure that Entity Framework is managing its service provider by removing the call to 'UseInternalServiceProvider'. Otherwise, consider conditionally registering the database provider, or maintaining one service provider per database provider.
+   at Microsoft.EntityFrameworkCore.Internal.DbContextServices.Initialize(IServiceProvider scopedProvider, DbContextOptions contextOptions, DbContext context)
+   at Microsoft.EntityFrameworkCore.DbContext.get_ContextServices()
+   at Microsoft.EntityFrameworkCore.DbContext.get_InternalServiceProvider()
+   at Microsoft.EntityFrameworkCore.DbContext.get_DbContextDependencies()
+   at Microsoft.EntityFrameworkCore.DbContext.Set[TEntity]()
+   at CinemaSystem.Infrastructure.Persistence.CinemaDbContext.get_Movies() in C:\Users\ali asım dedeoğlu\OneDrive\Masaüstü\sinema_api\src\CinemaSystem.Infrastructure\Persistence\CinemaDbContext.cs:line 30
+   at CinemaSystem.Infrastructure.Repositories.MovieRepository.AddAsync(Movie movie, CancellationToken ct) in C:\Users\ali asım dedeoğlu\OneDrive\Masaüstü\sinema_api\src\CinemaSystem.Infrastructure\Repositories\Repositories.cs:line 25
+   at CinemaSystem.Application.Features.Movies.Commands.CreateMovieCommandHandler.Handle(CreateMovieCommand request, CancellationToken cancellationToken) in C:\Users\ali asım dedeoğlu\OneDrive\Masaüstü\sinema_api\src\CinemaSystem.Application\Features\Movies\Commands\CreateMovieCommand.cs:line 45
+   at CinemaSystem.Application.Common.Behaviors.ValidationBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken) in C:\Users\ali asım dedeoğlu\OneDrive\Masaüstü\sinema_api\src\CinemaSystem.Application\Common\Behaviors\ValidationBehavior.cs:line 42
+   at CinemaSystem.Application.Common.Behaviors.LoggingBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken) in C:\Users\ali asım dedeoğlu\OneDrive\Masaüstü\sinema_api\src\CinemaSystem.Application\Common\Behaviors\LoggingBehavior.cs:line 28
+2026-03-03 02:19:29.624 +03:00 [INF] Handling CreateMovieCommand
+2026-03-03 02:19:29.737 +03:00 [WRN] Request CreateMovieCommand failed after 116ms
+System.InvalidOperationException: Services for database providers 'Microsoft.EntityFrameworkCore.SqlServer', 'Microsoft.EntityFrameworkCore.InMemory' have been registered in the service provider. Only a single database provider can be registered in a service provider. If possible, ensure that Entity Framework is managing its service provider by removing the call to 'UseInternalServiceProvider'. Otherwise, consider conditionally registering the database provider, or maintaining one service provider per database provider.
+   at Microsoft.EntityFrameworkCore.Internal.DbContextServices.Initialize(IServiceProvider scopedProvider, DbContextOptions contextOptions, DbContext context)
+   at Microsoft.EntityFrameworkCore.DbContext.get_ContextServices()
+   at Microsoft.EntityFrameworkCore.DbContext.get_InternalServiceProvider()
+   at Microsoft.EntityFrameworkCore.DbContext.get_DbContextDependencies()
+   at Microsoft.EntityFrameworkCore.DbContext.Set[TEntity]()
+   at CinemaSystem.Infrastructure.Persistence.CinemaDbContext.get_Movies() in C:\Users\ali asım dedeoğlu\OneDrive\Masaüstü\sinema_api\src\CinemaSystem.Infrastructure\Persistence\CinemaDbContext.cs:line 30
+   at CinemaSystem.Infrastructure.Repositories.MovieRepository.AddAsync(Movie movie, CancellationToken ct) in C:\Users\ali asım dedeoğlu\OneDrive\Masaüstü\sinema_api\src\CinemaSystem.Infrastructure\Repositories\Repositories.cs:line 25
+   at CinemaSystem.Application.Features.Movies.Commands.CreateMovieCommandHandler.Handle(CreateMovieCommand request, CancellationToken cancellationToken) in C:\Users\ali asım dedeoğlu\OneDrive\Masaüstü\sinema_api\src\CinemaSystem.Application\Features\Movies\Commands\CreateMovieCommand.cs:line 45
+   at CinemaSystem.Application.Common.Behaviors.ValidationBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken) in C:\Users\ali asım dedeoğlu\OneDrive\Masaüstü\sinema_api\src\CinemaSystem.Application\Common\Behaviors\ValidationBehavior.cs:line 42
+   at CinemaSystem.Application.Common.Behaviors.LoggingBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken) in C:\Users\ali asım dedeoğlu\OneDrive\Masaüstü\sinema_api\src\CinemaSystem.Application\Common\Behaviors\LoggingBehavior.cs:line 28
+2026-03-03 02:19:29.760 +03:00 [INF] Handling CreateMovieCommand
+2026-03-03 02:19:29.762 +03:00 [WRN] Request CreateMovieCommand failed after 2ms
+System.InvalidOperationException: Services for database providers 'Microsoft.EntityFrameworkCore.SqlServer', 'Microsoft.EntityFrameworkCore.InMemory' have been registered in the service provider. Only a single database provider can be registered in a service provider. If possible, ensure that Entity Framework is managing its service provider by removing the call to 'UseInternalServiceProvider'. Otherwise, consider conditionally registering the database provider, or maintaining one service provider per database provider.
+   at Microsoft.EntityFrameworkCore.Internal.DbContextServices.Initialize(IServiceProvider scopedProvider, DbContextOptions contextOptions, DbContext context)
+   at Microsoft.EntityFrameworkCore.DbContext.get_ContextServices()
+   at Microsoft.EntityFrameworkCore.DbContext.get_InternalServiceProvider()
+   at Microsoft.EntityFrameworkCore.DbContext.get_DbContextDependencies()
+   at Microsoft.EntityFrameworkCore.DbContext.Set[TEntity]()
+   at CinemaSystem.Infrastructure.Persistence.CinemaDbContext.get_Movies() in C:\Users\ali asım dedeoğlu\OneDrive\Masaüstü\sinema_api\src\CinemaSystem.Infrastructure\Persistence\CinemaDbContext.cs:line 30
+   at CinemaSystem.Infrastructure.Repositories.MovieRepository.AddAsync(Movie movie, CancellationToken ct) in C:\Users\ali asım dedeoğlu\OneDrive\Masaüstü\sinema_api\src\CinemaSystem.Infrastructure\Repositories\Repositories.cs:line 25
+   at CinemaSystem.Application.Features.Movies.Commands.CreateMovieCommandHandler.Handle(CreateMovieCommand request, CancellationToken cancellationToken) in C:\Users\ali asım dedeoğlu\OneDrive\Masaüstü\sinema_api\src\CinemaSystem.Application\Features\Movies\Commands\CreateMovieCommand.cs:line 45
+   at CinemaSystem.Application.Common.Behaviors.ValidationBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken) in C:\Users\ali asım dedeoğlu\OneDrive\Masaüstü\sinema_api\src\CinemaSystem.Application\Common\Behaviors\ValidationBehavior.cs:line 42
+   at CinemaSystem.Application.Common.Behaviors.LoggingBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken) in C:\Users\ali asım dedeoğlu\OneDrive\Masaüstü\sinema_api\src\CinemaSystem.Application\Common\Behaviors\LoggingBehavior.cs:line 28
+2026-03-03 02:19:41.418 +03:00 [INF] Handling CreateMovieCommand
+2026-03-03 02:19:41.528 +03:00 [WRN] Request CreateMovieCommand failed after 112ms
+System.InvalidOperationException: Services for database providers 'Microsoft.EntityFrameworkCore.SqlServer', 'Microsoft.EntityFrameworkCore.InMemory' have been registered in the service provider. Only a single database provider can be registered in a service provider. If possible, ensure that Entity Framework is managing its service provider by removing the call to 'UseInternalServiceProvider'. Otherwise, consider conditionally registering the database provider, or maintaining one service provider per database provider.
+   at Microsoft.EntityFrameworkCore.Internal.DbContextServices.Initialize(IServiceProvider scopedProvider, DbContextOptions contextOptions, DbContext context)
+   at Microsoft.EntityFrameworkCore.DbContext.get_ContextServices()
+   at Microsoft.EntityFrameworkCore.DbContext.get_InternalServiceProvider()
+   at Microsoft.EntityFrameworkCore.DbContext.get_DbContextDependencies()
+   at Microsoft.EntityFrameworkCore.DbContext.Set[TEntity]()
+   at CinemaSystem.Infrastructure.Persistence.CinemaDbContext.get_Movies() in C:\Users\ali asım dedeoğlu\OneDrive\Masaüstü\sinema_api\src\CinemaSystem.Infrastructure\Persistence\CinemaDbContext.cs:line 30
+   at CinemaSystem.Infrastructure.Repositories.MovieRepository.AddAsync(Movie movie, CancellationToken ct) in C:\Users\ali asım dedeoğlu\OneDrive\Masaüstü\sinema_api\src\CinemaSystem.Infrastructure\Repositories\Repositories.cs:line 25
+   at CinemaSystem.Application.Features.Movies.Commands.CreateMovieCommandHandler.Handle(CreateMovieCommand request, CancellationToken cancellationToken) in C:\Users\ali asım dedeoğlu\OneDrive\Masaüstü\sinema_api\src\CinemaSystem.Application\Features\Movies\Commands\CreateMovieCommand.cs:line 45
+   at CinemaSystem.Application.Common.Behaviors.ValidationBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken) in C:\Users\ali asım dedeoğlu\OneDrive\Masaüstü\sinema_api\src\CinemaSystem.Application\Common\Behaviors\ValidationBehavior.cs:line 42
+   at CinemaSystem.Application.Common.Behaviors.LoggingBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken) in C:\Users\ali asım dedeoğlu\OneDrive\Masaüstü\sinema_api\src\CinemaSystem.Application\Common\Behaviors\LoggingBehavior.cs:line 28
+2026-03-03 02:19:41.543 +03:00 [INF] Handling CreateMovieCommand
+2026-03-03 02:19:41.545 +03:00 [WRN] Request CreateMovieCommand failed after 2ms
+System.InvalidOperationException: Services for database providers 'Microsoft.EntityFrameworkCore.SqlServer', 'Microsoft.EntityFrameworkCore.InMemory' have been registered in the service provider. Only a single database provider can be registered in a service provider. If possible, ensure that Entity Framework is managing its service provider by removing the call to 'UseInternalServiceProvider'. Otherwise, consider conditionally registering the database provider, or maintaining one service provider per database provider.
+   at Microsoft.EntityFrameworkCore.Internal.DbContextServices.Initialize(IServiceProvider scopedProvider, DbContextOptions contextOptions, DbContext context)
+   at Microsoft.EntityFrameworkCore.DbContext.get_ContextServices()
+   at Microsoft.EntityFrameworkCore.DbContext.get_InternalServiceProvider()
+   at Microsoft.EntityFrameworkCore.DbContext.get_DbContextDependencies()
+   at Microsoft.EntityFrameworkCore.DbContext.Set[TEntity]()
+   at CinemaSystem.Infrastructure.Persistence.CinemaDbContext.get_Movies() in C:\Users\ali asım dedeoğlu\OneDrive\Masaüstü\sinema_api\src\CinemaSystem.Infrastructure\Persistence\CinemaDbContext.cs:line 30
+   at CinemaSystem.Infrastructure.Repositories.MovieRepository.AddAsync(Movie movie, CancellationToken ct) in C:\Users\ali asım dedeoğlu\OneDrive\Masaüstü\sinema_api\src\CinemaSystem.Infrastructure\Repositories\Repositories.cs:line 25
+   at CinemaSystem.Application.Features.Movies.Commands.CreateMovieCommandHandler.Handle(CreateMovieCommand request, CancellationToken cancellationToken) in C:\Users\ali asım dedeoğlu\OneDrive\Masaüstü\sinema_api\src\CinemaSystem.Application\Features\Movies\Commands\CreateMovieCommand.cs:line 45
+   at CinemaSystem.Application.Common.Behaviors.ValidationBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken) in C:\Users\ali asım dedeoğlu\OneDrive\Masaüstü\sinema_api\src\CinemaSystem.Application\Common\Behaviors\ValidationBehavior.cs:line 42
+   at CinemaSystem.Application.Common.Behaviors.LoggingBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken) in C:\Users\ali asım dedeoğlu\OneDrive\Masaüstü\sinema_api\src\CinemaSystem.Application\Common\Behaviors\LoggingBehavior.cs:line 28
+2026-03-03 02:19:52.029 +03:00 [INF] Handling CreateMovieCommand
+2026-03-03 02:19:52.139 +03:00 [WRN] Request CreateMovieCommand failed after 113ms
+System.InvalidOperationException: Services for database providers 'Microsoft.EntityFrameworkCore.SqlServer', 'Microsoft.EntityFrameworkCore.InMemory' have been registered in the service provider. Only a single database provider can be registered in a service provider. If possible, ensure that Entity Framework is managing its service provider by removing the call to 'UseInternalServiceProvider'. Otherwise, consider conditionally registering the database provider, or maintaining one service provider per database provider.
+   at Microsoft.EntityFrameworkCore.Internal.DbContextServices.Initialize(IServiceProvider scopedProvider, DbContextOptions contextOptions, DbContext context)
+   at Microsoft.EntityFrameworkCore.DbContext.get_ContextServices()
+   at Microsoft.EntityFrameworkCore.DbContext.get_InternalServiceProvider()
+   at Microsoft.EntityFrameworkCore.DbContext.get_DbContextDependencies()
+   at Microsoft.EntityFrameworkCore.DbContext.Set[TEntity]()
+   at CinemaSystem.Infrastructure.Persistence.CinemaDbContext.get_Movies() in C:\Users\ali asım dedeoğlu\OneDrive\Masaüstü\sinema_api\src\CinemaSystem.Infrastructure\Persistence\CinemaDbContext.cs:line 30
+   at CinemaSystem.Infrastructure.Repositories.MovieRepository.AddAsync(Movie movie, CancellationToken ct) in C:\Users\ali asım dedeoğlu\OneDrive\Masaüstü\sinema_api\src\CinemaSystem.Infrastructure\Repositories\Repositories.cs:line 25
+   at CinemaSystem.Application.Features.Movies.Commands.CreateMovieCommandHandler.Handle(CreateMovieCommand request, CancellationToken cancellationToken) in C:\Users\ali asım dedeoğlu\OneDrive\Masaüstü\sinema_api\src\CinemaSystem.Application\Features\Movies\Commands\CreateMovieCommand.cs:line 45
+   at CinemaSystem.Application.Common.Behaviors.ValidationBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken) in C:\Users\ali asım dedeoğlu\OneDrive\Masaüstü\sinema_api\src\CinemaSystem.Application\Common\Behaviors\ValidationBehavior.cs:line 42
+   at CinemaSystem.Application.Common.Behaviors.LoggingBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken) in C:\Users\ali asım dedeoğlu\OneDrive\Masaüstü\sinema_api\src\CinemaSystem.Application\Common\Behaviors\LoggingBehavior.cs:line 28
+2026-03-03 02:19:52.156 +03:00 [INF] Handling CreateMovieCommand
+2026-03-03 02:19:52.159 +03:00 [WRN] Request CreateMovieCommand failed after 2ms
+System.InvalidOperationException: Services for database providers 'Microsoft.EntityFrameworkCore.SqlServer', 'Microsoft.EntityFrameworkCore.InMemory' have been registered in the service provider. Only a single database provider can be registered in a service provider. If possible, ensure that Entity Framework is managing its service provider by removing the call to 'UseInternalServiceProvider'. Otherwise, consider conditionally registering the database provider, or maintaining one service provider per database provider.
+   at Microsoft.EntityFrameworkCore.Internal.DbContextServices.Initialize(IServiceProvider scopedProvider, DbContextOptions contextOptions, DbContext context)
+   at Microsoft.EntityFrameworkCore.DbContext.get_ContextServices()
+   at Microsoft.EntityFrameworkCore.DbContext.get_InternalServiceProvider()
+   at Microsoft.EntityFrameworkCore.DbContext.get_DbContextDependencies()
+   at Microsoft.EntityFrameworkCore.DbContext.Set[TEntity]()
+   at CinemaSystem.Infrastructure.Persistence.CinemaDbContext.get_Movies() in C:\Users\ali asım dedeoğlu\OneDrive\Masaüstü\sinema_api\src\CinemaSystem.Infrastructure\Persistence\CinemaDbContext.cs:line 30
+   at CinemaSystem.Infrastructure.Repositories.MovieRepository.AddAsync(Movie movie, CancellationToken ct) in C:\Users\ali asım dedeoğlu\OneDrive\Masaüstü\sinema_api\src\CinemaSystem.Infrastructure\Repositories\Repositories.cs:line 25
+   at CinemaSystem.Application.Features.Movies.Commands.CreateMovieCommandHandler.Handle(CreateMovieCommand request, CancellationToken cancellationToken) in C:\Users\ali asım dedeoğlu\OneDrive\Masaüstü\sinema_api\src\CinemaSystem.Application\Features\Movies\Commands\CreateMovieCommand.cs:line 45
+   at CinemaSystem.Application.Common.Behaviors.ValidationBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken) in C:\Users\ali asım dedeoğlu\OneDrive\Masaüstü\sinema_api\src\CinemaSystem.Application\Common\Behaviors\ValidationBehavior.cs:line 42
+   at CinemaSystem.Application.Common.Behaviors.LoggingBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken) in C:\Users\ali asım dedeoğlu\OneDrive\Masaüstü\sinema_api\src\CinemaSystem.Application\Common\Behaviors\LoggingBehavior.cs:line 28
+2026-03-03 02:21:19.398 +03:00 [INF] Handling CreateMovieCommand
+2026-03-03 02:21:19.816 +03:00 [WRN] Entity 'Movie' has a global query filter defined and is the required end of a relationship with the entity 'ShowTime'. This may lead to unexpected results when the required entity is filtered out. Either configure the navigation as optional, or define matching query filters for both entities in the navigation. See https://go.microsoft.com/fwlink/?linkid=2131316 for more information.
+2026-03-03 02:21:20.009 +03:00 [INF] Saved 1 entities to in-memory store.
+2026-03-03 02:21:20.018 +03:00 [INF] Handled CreateMovieCommand in 622ms
+2026-03-03 02:21:20.026 +03:00 [INF] Handling CreateCinemaHallCommand
+2026-03-03 02:21:20.072 +03:00 [INF] Saved 2 entities to in-memory store.
+2026-03-03 02:21:20.074 +03:00 [INF] Handled CreateCinemaHallCommand in 47ms
+2026-03-03 02:21:20.090 +03:00 [INF] Handling CreateShowTimeCommand
+2026-03-03 02:21:20.237 +03:00 [INF] Saved 1 entities to in-memory store.
+2026-03-03 02:21:20.237 +03:00 [INF] Handled CreateShowTimeCommand in 147ms
+2026-03-03 02:21:20.245 +03:00 [INF] Handling ReserveSeatsCommand
+2026-03-03 02:21:20.338 +03:00 [INF] Saved 3 entities to in-memory store.
+2026-03-03 02:21:20.339 +03:00 [ERR] Unexpected error during seat reservation
+System.ArgumentException: notification does not implement $INotification
+   at MediatR.Mediator.Publish(Object notification, CancellationToken cancellationToken)
+   at CinemaSystem.Infrastructure.Persistence.CinemaDbContext.SaveChangesAsync(CancellationToken cancellationToken) in C:\Users\ali asım dedeoğlu\OneDrive\Masaüstü\sinema_api\src\CinemaSystem.Infrastructure\Persistence\CinemaDbContext.cs:line 57
+   at CinemaSystem.Application.Features.Reservations.Commands.ReserveSeatsCommandHandler.Handle(ReserveSeatsCommand request, CancellationToken cancellationToken) in C:\Users\ali asım dedeoğlu\OneDrive\Masaüstü\sinema_api\src\CinemaSystem.Application\Features\Reservations\Commands\ReserveSeatsCommand.cs:line 145
+2026-03-03 02:21:20.342 +03:00 [WRN] Request ReserveSeatsCommand failed after 96ms
+System.ArgumentException: notification does not implement $INotification
+   at MediatR.Mediator.Publish(Object notification, CancellationToken cancellationToken)
+   at CinemaSystem.Infrastructure.Persistence.CinemaDbContext.SaveChangesAsync(CancellationToken cancellationToken) in C:\Users\ali asım dedeoğlu\OneDrive\Masaüstü\sinema_api\src\CinemaSystem.Infrastructure\Persistence\CinemaDbContext.cs:line 57
+   at CinemaSystem.Application.Features.Reservations.Commands.ReserveSeatsCommandHandler.Handle(ReserveSeatsCommand request, CancellationToken cancellationToken) in C:\Users\ali asım dedeoğlu\OneDrive\Masaüstü\sinema_api\src\CinemaSystem.Application\Features\Reservations\Commands\ReserveSeatsCommand.cs:line 145
+   at CinemaSystem.Application.Features.Reservations.Commands.ReserveSeatsCommandHandler.Handle(ReserveSeatsCommand request, CancellationToken cancellationToken) in C:\Users\ali asım dedeoğlu\OneDrive\Masaüstü\sinema_api\src\CinemaSystem.Application\Features\Reservations\Commands\ReserveSeatsCommand.cs:line 175
+   at CinemaSystem.Application.Common.Behaviors.ValidationBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken) in C:\Users\ali asım dedeoğlu\OneDrive\Masaüstü\sinema_api\src\CinemaSystem.Application\Common\Behaviors\ValidationBehavior.cs:line 42
+   at CinemaSystem.Application.Common.Behaviors.LoggingBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken) in C:\Users\ali asım dedeoğlu\OneDrive\Masaüstü\sinema_api\src\CinemaSystem.Application\Common\Behaviors\LoggingBehavior.cs:line 28
+2026-03-03 02:21:20.352 +03:00 [INF] Handling CreateMovieCommand
+2026-03-03 02:21:20.374 +03:00 [INF] Saved 1 entities to in-memory store.
+2026-03-03 02:21:20.375 +03:00 [INF] Handled CreateMovieCommand in 22ms
+2026-03-03 02:21:20.384 +03:00 [INF] Handling CreateCinemaHallCommand
+2026-03-03 02:21:20.385 +03:00 [INF] Saved 4 entities to in-memory store.
+2026-03-03 02:21:20.385 +03:00 [INF] Handled CreateCinemaHallCommand in 1ms
+2026-03-03 02:21:20.386 +03:00 [INF] Handling CreateShowTimeCommand
+2026-03-03 02:21:20.389 +03:00 [INF] Saved 1 entities to in-memory store.
+2026-03-03 02:21:20.389 +03:00 [INF] Handled CreateShowTimeCommand in 2ms
+2026-03-03 02:21:20.393 +03:00 [INF] Handling ReserveSeatsCommand
+2026-03-03 02:21:20.395 +03:00 [INF] Saved 3 entities to in-memory store.
+2026-03-03 02:21:20.395 +03:00 [ERR] Unexpected error during seat reservation
+System.ArgumentException: notification does not implement $INotification
+   at MediatR.Mediator.Publish(Object notification, CancellationToken cancellationToken)
+   at CinemaSystem.Infrastructure.Persistence.CinemaDbContext.SaveChangesAsync(CancellationToken cancellationToken) in C:\Users\ali asım dedeoğlu\OneDrive\Masaüstü\sinema_api\src\CinemaSystem.Infrastructure\Persistence\CinemaDbContext.cs:line 57
+   at CinemaSystem.Application.Features.Reservations.Commands.ReserveSeatsCommandHandler.Handle(ReserveSeatsCommand request, CancellationToken cancellationToken) in C:\Users\ali asım dedeoğlu\OneDrive\Masaüstü\sinema_api\src\CinemaSystem.Application\Features\Reservations\Commands\ReserveSeatsCommand.cs:line 145
+2026-03-03 02:21:20.395 +03:00 [WRN] Request ReserveSeatsCommand failed after 1ms
+System.ArgumentException: notification does not implement $INotification
+   at MediatR.Mediator.Publish(Object notification, CancellationToken cancellationToken)
+   at CinemaSystem.Infrastructure.Persistence.CinemaDbContext.SaveChangesAsync(CancellationToken cancellationToken) in C:\Users\ali asım dedeoğlu\OneDrive\Masaüstü\sinema_api\src\CinemaSystem.Infrastructure\Persistence\CinemaDbContext.cs:line 57
+   at CinemaSystem.Application.Features.Reservations.Commands.ReserveSeatsCommandHandler.Handle(ReserveSeatsCommand request, CancellationToken cancellationToken) in C:\Users\ali asım dedeoğlu\OneDrive\Masaüstü\sinema_api\src\CinemaSystem.Application\Features\Reservations\Commands\ReserveSeatsCommand.cs:line 145
+   at CinemaSystem.Application.Features.Reservations.Commands.ReserveSeatsCommandHandler.Handle(ReserveSeatsCommand request, CancellationToken cancellationToken) in C:\Users\ali asım dedeoğlu\OneDrive\Masaüstü\sinema_api\src\CinemaSystem.Application\Features\Reservations\Commands\ReserveSeatsCommand.cs:line 175
+   at CinemaSystem.Application.Common.Behaviors.ValidationBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken) in C:\Users\ali asım dedeoğlu\OneDrive\Masaüstü\sinema_api\src\CinemaSystem.Application\Common\Behaviors\ValidationBehavior.cs:line 42
+   at CinemaSystem.Application.Common.Behaviors.LoggingBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken) in C:\Users\ali asım dedeoğlu\OneDrive\Masaüstü\sinema_api\src\CinemaSystem.Application\Common\Behaviors\LoggingBehavior.cs:line 28
+2026-03-03 02:21:31.247 +03:00 [INF] Handling CreateMovieCommand
+2026-03-03 02:21:31.671 +03:00 [WRN] Entity 'Movie' has a global query filter defined and is the required end of a relationship with the entity 'ShowTime'. This may lead to unexpected results when the required entity is filtered out. Either configure the navigation as optional, or define matching query filters for both entities in the navigation. See https://go.microsoft.com/fwlink/?linkid=2131316 for more information.
+2026-03-03 02:21:31.866 +03:00 [INF] Saved 1 entities to in-memory store.
+2026-03-03 02:21:31.875 +03:00 [INF] Handled CreateMovieCommand in 630ms
+2026-03-03 02:21:31.882 +03:00 [INF] Handling CreateCinemaHallCommand
+2026-03-03 02:21:31.926 +03:00 [INF] Saved 2 entities to in-memory store.
+2026-03-03 02:21:31.927 +03:00 [INF] Handled CreateCinemaHallCommand in 44ms
+2026-03-03 02:21:31.937 +03:00 [INF] Handling CreateShowTimeCommand
+2026-03-03 02:21:32.083 +03:00 [INF] Saved 1 entities to in-memory store.
+2026-03-03 02:21:32.084 +03:00 [INF] Handled CreateShowTimeCommand in 146ms
+2026-03-03 02:21:32.092 +03:00 [INF] Handling ReserveSeatsCommand
+2026-03-03 02:21:32.184 +03:00 [INF] Saved 3 entities to in-memory store.
+2026-03-03 02:21:32.185 +03:00 [ERR] Unexpected error during seat reservation
+System.ArgumentException: notification does not implement $INotification
+   at MediatR.Mediator.Publish(Object notification, CancellationToken cancellationToken)
+   at CinemaSystem.Infrastructure.Persistence.CinemaDbContext.SaveChangesAsync(CancellationToken cancellationToken) in C:\Users\ali asım dedeoğlu\OneDrive\Masaüstü\sinema_api\src\CinemaSystem.Infrastructure\Persistence\CinemaDbContext.cs:line 57
+   at CinemaSystem.Application.Features.Reservations.Commands.ReserveSeatsCommandHandler.Handle(ReserveSeatsCommand request, CancellationToken cancellationToken) in C:\Users\ali asım dedeoğlu\OneDrive\Masaüstü\sinema_api\src\CinemaSystem.Application\Features\Reservations\Commands\ReserveSeatsCommand.cs:line 145
+2026-03-03 02:21:32.188 +03:00 [WRN] Request ReserveSeatsCommand failed after 95ms
+System.ArgumentException: notification does not implement $INotification
+   at MediatR.Mediator.Publish(Object notification, CancellationToken cancellationToken)
+   at CinemaSystem.Infrastructure.Persistence.CinemaDbContext.SaveChangesAsync(CancellationToken cancellationToken) in C:\Users\ali asım dedeoğlu\OneDrive\Masaüstü\sinema_api\src\CinemaSystem.Infrastructure\Persistence\CinemaDbContext.cs:line 57
+   at CinemaSystem.Application.Features.Reservations.Commands.ReserveSeatsCommandHandler.Handle(ReserveSeatsCommand request, CancellationToken cancellationToken) in C:\Users\ali asım dedeoğlu\OneDrive\Masaüstü\sinema_api\src\CinemaSystem.Application\Features\Reservations\Commands\ReserveSeatsCommand.cs:line 145
+   at CinemaSystem.Application.Features.Reservations.Commands.ReserveSeatsCommandHandler.Handle(ReserveSeatsCommand request, CancellationToken cancellationToken) in C:\Users\ali asım dedeoğlu\OneDrive\Masaüstü\sinema_api\src\CinemaSystem.Application\Features\Reservations\Commands\ReserveSeatsCommand.cs:line 175
+   at CinemaSystem.Application.Common.Behaviors.ValidationBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken) in C:\Users\ali asım dedeoğlu\OneDrive\Masaüstü\sinema_api\src\CinemaSystem.Application\Common\Behaviors\ValidationBehavior.cs:line 42
+   at CinemaSystem.Application.Common.Behaviors.LoggingBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken) in C:\Users\ali asım dedeoğlu\OneDrive\Masaüstü\sinema_api\src\CinemaSystem.Application\Common\Behaviors\LoggingBehavior.cs:line 28
+2026-03-03 02:21:32.198 +03:00 [INF] Handling CreateMovieCommand
+2026-03-03 02:21:32.220 +03:00 [INF] Saved 1 entities to in-memory store.
+2026-03-03 02:21:32.221 +03:00 [INF] Handled CreateMovieCommand in 22ms
+2026-03-03 02:21:32.228 +03:00 [INF] Handling CreateCinemaHallCommand
+2026-03-03 02:21:32.229 +03:00 [INF] Saved 4 entities to in-memory store.
+2026-03-03 02:21:32.229 +03:00 [INF] Handled CreateCinemaHallCommand in 1ms
+2026-03-03 02:21:32.230 +03:00 [INF] Handling CreateShowTimeCommand
+2026-03-03 02:21:32.232 +03:00 [INF] Saved 1 entities to in-memory store.
+2026-03-03 02:21:32.233 +03:00 [INF] Handled CreateShowTimeCommand in 2ms
+2026-03-03 02:21:32.237 +03:00 [INF] Handling ReserveSeatsCommand
+2026-03-03 02:21:32.239 +03:00 [INF] Saved 3 entities to in-memory store.
+2026-03-03 02:21:32.239 +03:00 [ERR] Unexpected error during seat reservation
+System.ArgumentException: notification does not implement $INotification
+   at MediatR.Mediator.Publish(Object notification, CancellationToken cancellationToken)
+   at CinemaSystem.Infrastructure.Persistence.CinemaDbContext.SaveChangesAsync(CancellationToken cancellationToken) in C:\Users\ali asım dedeoğlu\OneDrive\Masaüstü\sinema_api\src\CinemaSystem.Infrastructure\Persistence\CinemaDbContext.cs:line 57
+   at CinemaSystem.Application.Features.Reservations.Commands.ReserveSeatsCommandHandler.Handle(ReserveSeatsCommand request, CancellationToken cancellationToken) in C:\Users\ali asım dedeoğlu\OneDrive\Masaüstü\sinema_api\src\CinemaSystem.Application\Features\Reservations\Commands\ReserveSeatsCommand.cs:line 145
+2026-03-03 02:21:32.239 +03:00 [WRN] Request ReserveSeatsCommand failed after 1ms
+System.ArgumentException: notification does not implement $INotification
+   at MediatR.Mediator.Publish(Object notification, CancellationToken cancellationToken)
+   at CinemaSystem.Infrastructure.Persistence.CinemaDbContext.SaveChangesAsync(CancellationToken cancellationToken) in C:\Users\ali asım dedeoğlu\OneDrive\Masaüstü\sinema_api\src\CinemaSystem.Infrastructure\Persistence\CinemaDbContext.cs:line 57
+   at CinemaSystem.Application.Features.Reservations.Commands.ReserveSeatsCommandHandler.Handle(ReserveSeatsCommand request, CancellationToken cancellationToken) in C:\Users\ali asım dedeoğlu\OneDrive\Masaüstü\sinema_api\src\CinemaSystem.Application\Features\Reservations\Commands\ReserveSeatsCommand.cs:line 145
+   at CinemaSystem.Application.Features.Reservations.Commands.ReserveSeatsCommandHandler.Handle(ReserveSeatsCommand request, CancellationToken cancellationToken) in C:\Users\ali asım dedeoğlu\OneDrive\Masaüstü\sinema_api\src\CinemaSystem.Application\Features\Reservations\Commands\ReserveSeatsCommand.cs:line 175
+   at CinemaSystem.Application.Common.Behaviors.ValidationBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken) in C:\Users\ali asım dedeoğlu\OneDrive\Masaüstü\sinema_api\src\CinemaSystem.Application\Common\Behaviors\ValidationBehavior.cs:line 42
+   at CinemaSystem.Application.Common.Behaviors.LoggingBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken) in C:\Users\ali asım dedeoğlu\OneDrive\Masaüstü\sinema_api\src\CinemaSystem.Application\Common\Behaviors\LoggingBehavior.cs:line 28
+2026-03-03 02:22:36.690 +03:00 [INF] Handling CreateMovieCommand
+2026-03-03 02:22:37.064 +03:00 [WRN] Entity 'Movie' has a global query filter defined and is the required end of a relationship with the entity 'ShowTime'. This may lead to unexpected results when the required entity is filtered out. Either configure the navigation as optional, or define matching query filters for both entities in the navigation. See https://go.microsoft.com/fwlink/?linkid=2131316 for more information.
+2026-03-03 02:22:37.245 +03:00 [INF] Saved 1 entities to in-memory store.
+2026-03-03 02:22:37.254 +03:00 [INF] Handled CreateMovieCommand in 566ms
+2026-03-03 02:22:37.261 +03:00 [INF] Handling CreateCinemaHallCommand
+2026-03-03 02:22:37.310 +03:00 [INF] Saved 2 entities to in-memory store.
+2026-03-03 02:22:37.311 +03:00 [INF] Handled CreateCinemaHallCommand in 50ms
+2026-03-03 02:22:37.322 +03:00 [INF] Handling CreateShowTimeCommand
+2026-03-03 02:22:37.465 +03:00 [INF] Saved 1 entities to in-memory store.
+2026-03-03 02:22:37.465 +03:00 [INF] Handled CreateShowTimeCommand in 143ms
+2026-03-03 02:22:37.473 +03:00 [INF] Handling ReserveSeatsCommand
+2026-03-03 02:22:37.569 +03:00 [INF] Saved 3 entities to in-memory store.
+2026-03-03 02:22:37.572 +03:00 [INF] Reservation "3b4a5b7c-f178-4dd0-8287-dc9423c4028f" created for user "c1a02322-4fb9-4adc-81ed-398fefa36844"
+2026-03-03 02:22:37.576 +03:00 [INF] Handled ReserveSeatsCommand in 102ms
+2026-03-03 02:22:37.584 +03:00 [INF] Handling ReserveSeatsCommand
+2026-03-03 02:22:37.612 +03:00 [WRN] Seat already reserved: Seat '54d37c6a-726d-47d1-8ca1-58cb289fe98f' is already reserved.
+2026-03-03 02:22:37.612 +03:00 [INF] Handled ReserveSeatsCommand in 28ms
+2026-03-03 02:22:37.620 +03:00 [INF] Handling CreateMovieCommand
+2026-03-03 02:22:37.633 +03:00 [INF] Saved 1 entities to in-memory store.
+2026-03-03 02:22:37.633 +03:00 [INF] Handled CreateMovieCommand in 13ms
+2026-03-03 02:22:37.634 +03:00 [INF] Handling CreateCinemaHallCommand
+2026-03-03 02:22:37.635 +03:00 [INF] Saved 4 entities to in-memory store.
+2026-03-03 02:22:37.635 +03:00 [INF] Handled CreateCinemaHallCommand in 1ms
+2026-03-03 02:22:37.635 +03:00 [INF] Handling CreateShowTimeCommand
+2026-03-03 02:22:37.637 +03:00 [INF] Saved 1 entities to in-memory store.
+2026-03-03 02:22:37.637 +03:00 [INF] Handled CreateShowTimeCommand in 1ms
+2026-03-03 02:22:37.642 +03:00 [INF] Handling ReserveSeatsCommand
+2026-03-03 02:22:37.645 +03:00 [INF] Saved 3 entities to in-memory store.
+2026-03-03 02:22:37.645 +03:00 [INF] Reservation "307b1e93-baaa-4965-a46e-33573a3e6b46" created for user "6251c84c-fbda-41c2-b259-21c6fdada84c"
+2026-03-03 02:22:37.645 +03:00 [INF] Handled ReserveSeatsCommand in 3ms
+2026-03-03 02:22:50.165 +03:00 [INF] Handling CreateMovieCommand
+2026-03-03 02:22:50.630 +03:00 [WRN] Entity 'Movie' has a global query filter defined and is the required end of a relationship with the entity 'ShowTime'. This may lead to unexpected results when the required entity is filtered out. Either configure the navigation as optional, or define matching query filters for both entities in the navigation. See https://go.microsoft.com/fwlink/?linkid=2131316 for more information.
+2026-03-03 02:22:50.837 +03:00 [INF] Saved 1 entities to in-memory store.
+2026-03-03 02:22:50.847 +03:00 [INF] Handled CreateMovieCommand in 685ms
+2026-03-03 02:22:50.859 +03:00 [INF] Handling CreateCinemaHallCommand
+2026-03-03 02:22:50.911 +03:00 [INF] Saved 2 entities to in-memory store.
+2026-03-03 02:22:50.913 +03:00 [INF] Handled CreateCinemaHallCommand in 54ms
+2026-03-03 02:22:50.927 +03:00 [INF] Handling CreateShowTimeCommand
+2026-03-03 02:22:51.092 +03:00 [INF] Saved 1 entities to in-memory store.
+2026-03-03 02:22:51.093 +03:00 [INF] Handled CreateShowTimeCommand in 166ms
+2026-03-03 02:22:51.110 +03:00 [INF] Handling ReserveSeatsCommand
+2026-03-03 02:22:51.238 +03:00 [INF] Saved 3 entities to in-memory store.
+2026-03-03 02:22:51.241 +03:00 [INF] Reservation "5ca827e5-1a5e-4a95-861d-8fe37db5b4e9" created for user "86be28b9-d612-430d-9b96-f086a4bd2620"
+2026-03-03 02:22:51.247 +03:00 [INF] Handled ReserveSeatsCommand in 136ms
+2026-03-03 02:22:51.256 +03:00 [INF] Handling ReserveSeatsCommand
+2026-03-03 02:22:51.284 +03:00 [WRN] Seat already reserved: Seat '1e9e019a-0432-45fa-b8ce-110d5ba865af' is already reserved.
+2026-03-03 02:22:51.284 +03:00 [INF] Handled ReserveSeatsCommand in 27ms
+2026-03-03 02:22:51.291 +03:00 [INF] Handling CreateMovieCommand
+2026-03-03 02:22:51.310 +03:00 [INF] Saved 1 entities to in-memory store.
+2026-03-03 02:22:51.310 +03:00 [INF] Handled CreateMovieCommand in 19ms
+2026-03-03 02:22:51.311 +03:00 [INF] Handling CreateCinemaHallCommand
+2026-03-03 02:22:51.313 +03:00 [INF] Saved 4 entities to in-memory store.
+2026-03-03 02:22:51.313 +03:00 [INF] Handled CreateCinemaHallCommand in 1ms
+2026-03-03 02:22:51.314 +03:00 [INF] Handling CreateShowTimeCommand
+2026-03-03 02:22:51.315 +03:00 [INF] Saved 1 entities to in-memory store.
+2026-03-03 02:22:51.316 +03:00 [INF] Handled CreateShowTimeCommand in 2ms
+2026-03-03 02:22:51.322 +03:00 [INF] Handling ReserveSeatsCommand
+2026-03-03 02:22:51.327 +03:00 [INF] Saved 3 entities to in-memory store.
+2026-03-03 02:22:51.327 +03:00 [INF] Reservation "3461c7a9-81f7-4c53-8b1e-08ab958a816e" created for user "53f6d855-0252-4a50-8298-7a26ae6ad613"
+2026-03-03 02:22:51.327 +03:00 [INF] Handled ReserveSeatsCommand in 4ms
+2026-03-03 03:05:24.692 +03:00 [INF] Handling CreateMovieCommand
+2026-03-03 03:05:25.085 +03:00 [WRN] Entity 'ShowTime' has a global query filter defined and is the required end of a relationship with the entity 'Reservation'. This may lead to unexpected results when the required entity is filtered out. Either configure the navigation as optional, or define matching query filters for both entities in the navigation. See https://go.microsoft.com/fwlink/?linkid=2131316 for more information.
+2026-03-03 03:05:25.085 +03:00 [WRN] Entity 'CinemaHall' has a global query filter defined and is the required end of a relationship with the entity 'Seat'. This may lead to unexpected results when the required entity is filtered out. Either configure the navigation as optional, or define matching query filters for both entities in the navigation. See https://go.microsoft.com/fwlink/?linkid=2131316 for more information.
+2026-03-03 03:05:25.085 +03:00 [WRN] Entity 'ShowTime' has a global query filter defined and is the required end of a relationship with the entity 'ShowTimeSeat'. This may lead to unexpected results when the required entity is filtered out. Either configure the navigation as optional, or define matching query filters for both entities in the navigation. See https://go.microsoft.com/fwlink/?linkid=2131316 for more information.
+2026-03-03 03:05:25.253 +03:00 [INF] Saved 1 entities to in-memory store.
+2026-03-03 03:05:25.262 +03:00 [INF] Handled CreateMovieCommand in 572ms
+2026-03-03 03:05:25.269 +03:00 [INF] Handling CreateCinemaHallCommand
+2026-03-03 03:05:25.315 +03:00 [INF] Saved 2 entities to in-memory store.
+2026-03-03 03:05:25.316 +03:00 [INF] Handled CreateCinemaHallCommand in 47ms
+2026-03-03 03:05:25.326 +03:00 [INF] Handling CreateShowTimeCommand
+2026-03-03 03:05:25.528 +03:00 [INF] Saved 2 entities to in-memory store.
+2026-03-03 03:05:25.529 +03:00 [INF] Handled CreateShowTimeCommand in 202ms
+2026-03-03 03:05:25.537 +03:00 [INF] Handling ReserveSeatsCommand
+2026-03-03 03:05:25.616 +03:00 [INF] Saved 3 entities to in-memory store.
+2026-03-03 03:05:25.618 +03:00 [INF] Reservation "86f77a43-27b9-4182-833c-823b7cfb9826" created for user "5589f438-7b2c-447d-a9d6-753360c6ab26"
+2026-03-03 03:05:25.623 +03:00 [INF] Handled ReserveSeatsCommand in 85ms
+2026-03-03 03:05:25.634 +03:00 [INF] Handling ReserveSeatsCommand
+2026-03-03 03:05:25.660 +03:00 [WRN] Seat already reserved: Seat 'f30b7383-1bd2-4076-959c-972e3afca4c9' is already reserved.
+2026-03-03 03:05:25.661 +03:00 [INF] Handled ReserveSeatsCommand in 26ms
+2026-03-03 03:05:25.668 +03:00 [INF] Handling CreateMovieCommand
+2026-03-03 03:05:25.681 +03:00 [INF] Saved 1 entities to in-memory store.
+2026-03-03 03:05:25.682 +03:00 [INF] Handled CreateMovieCommand in 13ms
+2026-03-03 03:05:25.682 +03:00 [INF] Handling CreateCinemaHallCommand
+2026-03-03 03:05:25.684 +03:00 [INF] Saved 4 entities to in-memory store.
+2026-03-03 03:05:25.684 +03:00 [INF] Handled CreateCinemaHallCommand in 1ms
+2026-03-03 03:05:25.684 +03:00 [INF] Handling CreateShowTimeCommand
+2026-03-03 03:05:25.685 +03:00 [INF] Saved 4 entities to in-memory store.
+2026-03-03 03:05:25.686 +03:00 [INF] Handled CreateShowTimeCommand in 1ms
+2026-03-03 03:05:25.691 +03:00 [INF] Handling ReserveSeatsCommand
+2026-03-03 03:05:25.694 +03:00 [INF] Saved 3 entities to in-memory store.
+2026-03-03 03:05:25.695 +03:00 [INF] Reservation "c4005261-6d67-4b41-86cd-73ddfb82c1f5" created for user "6a2384f4-acb9-4b38-b579-0109b8c1d9a5"
+2026-03-03 03:05:25.695 +03:00 [INF] Handled ReserveSeatsCommand in 3ms
+2026-03-03 03:20:25.555 +03:00 [INF] Handling CreateMovieCommand
+2026-03-03 03:20:25.946 +03:00 [WRN] Entity 'ShowTime' has a global query filter defined and is the required end of a relationship with the entity 'Reservation'. This may lead to unexpected results when the required entity is filtered out. Either configure the navigation as optional, or define matching query filters for both entities in the navigation. See https://go.microsoft.com/fwlink/?linkid=2131316 for more information.
+2026-03-03 03:20:25.947 +03:00 [WRN] Entity 'CinemaHall' has a global query filter defined and is the required end of a relationship with the entity 'Seat'. This may lead to unexpected results when the required entity is filtered out. Either configure the navigation as optional, or define matching query filters for both entities in the navigation. See https://go.microsoft.com/fwlink/?linkid=2131316 for more information.
+2026-03-03 03:20:25.947 +03:00 [WRN] Entity 'ShowTime' has a global query filter defined and is the required end of a relationship with the entity 'ShowTimeSeat'. This may lead to unexpected results when the required entity is filtered out. Either configure the navigation as optional, or define matching query filters for both entities in the navigation. See https://go.microsoft.com/fwlink/?linkid=2131316 for more information.
+2026-03-03 03:20:26.111 +03:00 [INF] Saved 1 entities to in-memory store.
+2026-03-03 03:20:26.120 +03:00 [INF] Handled CreateMovieCommand in 567ms
+2026-03-03 03:20:26.127 +03:00 [INF] Handling CreateCinemaHallCommand
+2026-03-03 03:20:26.173 +03:00 [INF] Saved 2 entities to in-memory store.
+2026-03-03 03:20:26.174 +03:00 [INF] Handled CreateCinemaHallCommand in 47ms
+2026-03-03 03:20:26.186 +03:00 [INF] Handling CreateShowTimeCommand
+2026-03-03 03:20:26.373 +03:00 [INF] Saved 2 entities to in-memory store.
+2026-03-03 03:20:26.374 +03:00 [INF] Handled CreateShowTimeCommand in 188ms
+2026-03-03 03:20:26.382 +03:00 [INF] Handling ReserveSeatsCommand
+2026-03-03 03:20:26.457 +03:00 [INF] Saved 3 entities to in-memory store.
+2026-03-03 03:20:26.460 +03:00 [INF] Reservation "9fe85675-dfc9-4fe6-96ae-9efc2d15f1db" created for user "9122920e-9389-4545-a826-e4a741ea0ed8"
+2026-03-03 03:20:26.464 +03:00 [INF] Handled ReserveSeatsCommand in 82ms
+2026-03-03 03:20:26.471 +03:00 [INF] Handling ReserveSeatsCommand
+2026-03-03 03:20:26.497 +03:00 [WRN] Seat already reserved: Seat '44ff0b0f-b9f2-4fb3-ae3b-e46fa3f6b85a' is already reserved.
+2026-03-03 03:20:26.497 +03:00 [INF] Handled ReserveSeatsCommand in 25ms
+2026-03-03 03:20:26.504 +03:00 [INF] Handling CreateMovieCommand
+2026-03-03 03:20:26.517 +03:00 [INF] Saved 1 entities to in-memory store.
+2026-03-03 03:20:26.517 +03:00 [INF] Handled CreateMovieCommand in 13ms
+2026-03-03 03:20:26.518 +03:00 [INF] Handling CreateCinemaHallCommand
+2026-03-03 03:20:26.519 +03:00 [INF] Saved 4 entities to in-memory store.
+2026-03-03 03:20:26.519 +03:00 [INF] Handled CreateCinemaHallCommand in 1ms
+2026-03-03 03:20:26.519 +03:00 [INF] Handling CreateShowTimeCommand
+2026-03-03 03:20:26.521 +03:00 [INF] Saved 4 entities to in-memory store.
+2026-03-03 03:20:26.521 +03:00 [INF] Handled CreateShowTimeCommand in 1ms
+2026-03-03 03:20:26.526 +03:00 [INF] Handling ReserveSeatsCommand
+2026-03-03 03:20:26.529 +03:00 [INF] Saved 3 entities to in-memory store.
+2026-03-03 03:20:26.529 +03:00 [INF] Reservation "9df031e2-4ffe-4685-b7f8-fcd0fe3b7f39" created for user "2260c9f9-2680-49ec-a5b6-363aa6bcb258"
+2026-03-03 03:20:26.530 +03:00 [INF] Handled ReserveSeatsCommand in 3ms
